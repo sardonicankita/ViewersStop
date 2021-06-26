@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;   
+}
+
+.navbar{
+    width: 100%;
+    height: 50px;
+    background-color: black; 
+}
+
+.navbar_container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding:0  50px;
+    color:white;
+}
+
+.logo_c{
+    flex:2;
+}
+
+.logo{
+    font-family: 'Do Hyeon';
+    font-size: 20px;
+    color: yellow;
+}
+
+.menu_c{
+    flex:6;
+}
+
+.m_list{
+    display:flex;
+    list-style: none;
+}
+
+.m_list_item{
+    margin-right: 30px;
+}
+.profile_c{
+    margin-left: 15px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.profile_pic_c{
+    align-items: flex-end;
+    margin-left: 10px;
+    margin:auto;
+}
+
+.profile_pic{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar{
+    width:50px;
+    height:100%;
+    background-color: black;
+    position: fixed;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.left_menu{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+.container{
+    background-color: #151515;;
+    height: 100vh;
+    color: white;
+}
+
+.content_c{
+    margin-left: 50px;
+}
+
+.featured{
+    height:50vh;
+    padding-left: 50px;
+}
+
+.featuredTitle{
+    width: 400px;
+}
+
+.featuredDesc{
+    margin-right: 100px;
+    width: 600px;
+}
+
+.featuredBut{
+    margin-left: 150px;
+    background-color: rgb(53, 170, 53);
+    color:white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
